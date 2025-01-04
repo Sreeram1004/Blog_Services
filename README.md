@@ -1,8 +1,13 @@
-How To RUN locally:
+How To RUN locally:  
+
   -First primarily you have to install Docker Desktop On your System
+  
   -Now After it you clone this repositry into your local
+  
   -Now comes the implementation of Docker 
+  
     1) change directory to the folder
+    
     2) Now run the command 
       ****docker-compose up --build***
     3)This will setup your docker Container locally 
