@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "This is a Blog-service project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run index.js"
+  },
+  "author": "Sreeram",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sreeram1004/BlogService.git"
+  },
+  "keywords": [
+    "Docker",
+    "NodeJS",
+    "ExpressJs"
+  ],
+  "bugs": {
+    "url": "https://github.com/Sreeram1004/BlogService/issues"
+  },
+  "homepage": "https://github.com/Sreeram1004/BlogService#readme"
+}
