@@ -30,4 +30,24 @@ How To RUN locally:
       Now using\c db 
       you can check collections-\d
       and write the querys to alter the tables.
-      
+How To Deploy:
+
+
+    Create a AWS ec2 instance 
+    connect to it create a key value .pem file 
+    Now install docker in aws linux terminal
+    ***sudo yarn install docker***
+    ***sudo docker start***
+    Now download docker-compose 
+    ***sudo curl -L "https://github.com/docker/compose/releases/download/2.20.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose***
+    ***sudo chmod +x /usr/local/bin/docker-compose *** 
+    Now install firewall and nginx
+    Now pull the docker images pushed into docker hub
+    *** docker pull <username>/image ***
+    create the same yml file
+    install cerbot for https
+Use links : 
+1)https://3.111.41.191/users/
+2)https://3.111.41.191/blogs/
+3)https://3.111.41.191/comments/
+
